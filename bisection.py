@@ -14,8 +14,7 @@ import math
 def f(x):
     return math.cos(x) - x
 
-# define tolerance on final result (hence number of bisections)
-tolerance = 1e-3
+# define tolerance on final result (hence number of bisectionstolerance = 10e-6
 
 # set up initial bracketing interval
 #   Note: Sign of function *must* change in this interval for method to work.
